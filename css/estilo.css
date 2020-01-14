@@ -1,0 +1,272 @@
+#principal
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/mesa.jpg");
+  background-color: #FFFFFF;
+  background-attachment: fixed;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: Center;
+}
+
+#cabecera
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/ps_neutral.png");
+  background-color: #FFFFFF;
+  background-attachment: fixed;
+
+  background-origin: border-box;
+  background-position: Center;
+}
+
+
+.index_camaras
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/Foto-camaras.png");
+  background-color: #FFFFFF;
+  background-attachment: relative;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: Center;
+  
+  padding: 250px 0 250px 0 ;
+}
+
+.index_camaras h1
+{
+  color:#2b5c94;
+}
+
+.index_camaras h3
+{
+  color:#d96600;
+}
+
+.index_electrico
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/fluorescent.jpg");
+  background-color: #FFFFFF;
+  background-attachment: relative;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: Center;
+  
+  padding: 250px 0 250px 0 ;
+}
+
+.index_electrico h1
+{
+  color:#2b5c94;
+}
+
+.index_electrico h3
+{
+  color:#d96600;
+}
+
+
+.index_hidraulico
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/drippy.jpg");
+  background-color: #FFFFFF;
+  background-attachment: relative;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: Center;
+  
+  padding: 250px 10px 250px 10px ;
+}
+
+.index_hidraulico h1
+{
+  color:#2b5c94;
+}
+
+.index_hidraulico h3
+{
+  color:#d96600;
+}
+
+.index_mantenimiento
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/hammer-man.jpg");
+  background-color: #FFFFFF;
+  background-attachment: relative;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: Center;
+  
+  padding: 250px 10px 250px 10px ;
+}
+
+.index_mantenimiento h1
+{
+  color:#2b5c94;
+}
+
+.index_mantenimiento h3
+{
+  color:#d96600;
+}
+
+.index_contacto
+{
+  background-color: #FFFFFF;
+  background-image:url("../images/movil.jpg");
+  background-color: #FFFFFF;
+  background-attachment: relative;
+  background-size: cover;
+  background-origin: border-box;
+  background-position: Center;
+  
+  padding: 250px 10px 250px 10px ;
+}
+
+.index_contacto h1
+{
+  color:#2b5c94;
+}
+
+.index_contacto h3
+{
+  color:#d96600;
+}
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 50px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: rgba(255,255,255,.7);
+    height: 50px;
+    transition: background-color .5s ease 0s;
+}
+
+
+
+
+@media (max-width: 992px) {
+ 
+  .opaque-navbar {
+  
+    height: 50px;
+    transition: background-color .5s ease 0s;
+}
+
+}
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.navbar-brand
+{
+  padding-top:0px;
+  padding-left:5px;
+
+}
+
+
+
+#icons h1{
+  color:#2b5c94;
+}
+
+
+#principal h4
+{
+  color:#d96600;
+}
+
+.principal h4
+{
+  color:#d96600;
+}
+
+
+.panel-body
+{
+  padding:1px 1px 1px 0px ;
+
+}
+
+
+
+.areaPie{
+
+  padding-left:5px;
+}
+
+.iconos_modulos:hover{
+-webkit-transform:translateY(-3px) scale(1.35);
+-moz-transform:translateY(-3px) scale(1.35);
+transform:translateY(-3px) scale(1.35);
+-webkit-transition: all 0.15s linear;
+-moz-transition: all 0.15s linear;
+transition: all 0.15s linear;
+z-index:2000;
+}
+
+.iconos_modulos:hover .glyphicon{
+color:#d96600;
+}
+
+.iconos_modulos:hover a{
+text-decoration: none;
+}
+
+#footer
+{
+  background-color:#d96600;
+  background-image:url("../images/dark_wood.png");
+  padding:10px;
+  color:#deb897;
+}
+
+#footer h4
+{
+  color:#2b5c94;
+  text-decoration: none;
+}
+
+#footer a
+{
+  color:#2b5c94;
+  text-decoration: none;
+}
+
+#footer ul
+{
+  margin:0px 0px 0px 1px;
+	list-style-position:inside;
+	list-style-type:none;
+	padding-left:1px;
+  text-align:center;
+
+
+}
+
+#footer ul li a
+{
+  color:#deb897;
+	text-decoration: none;
+
+}
+
+#footer ul li a:hover
+{
+  color:#FFFFFF;
+	text-decoration: none;
+  font-weight:bold;
+}
+
